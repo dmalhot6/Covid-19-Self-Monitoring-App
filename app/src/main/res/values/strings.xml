@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="app_rr_identifier">com.example.assignment1.rr</string>
+    <string name="app_hr_identifier">com.example.assignment1.hr</string>
+</resources>

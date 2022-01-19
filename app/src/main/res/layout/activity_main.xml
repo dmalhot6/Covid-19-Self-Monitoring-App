@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_resp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="240dp"
+        android:text="Measure Respiratory Rate"
+        app:layout_constraintBottom_toTopOf="@+id/button_symptom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_rate_measurement" />
+
+    <Button
+        android:id="@+id/button_symptom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="157dp"
+        android:text="symptoms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_resp" />
+
+    <Button
+        android:id="@+id/heart_rate_measurement"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginBottom="175dp"
+        android:text="measure heart rate"
+        app:layout_constraintBottom_toTopOf="@+id/button_resp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
